@@ -1,0 +1,88 @@
+body {
+    background-color: #e9ebee;
+}
+
+a {
+    color: gray;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: rgb(232, 192, 102);
+    padding: 10px 0px;
+}
+
+header .buscar form input[type="text"] {
+    width: 100%;
+    background: white;
+    border: none;
+    font-size: 12px;
+    padding: 0 10px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 3px 0 0 3px;
+    color: gray;
+}
+
+header .buscar form button {
+    width: 100%;
+    background: white;
+    border: none;
+    font-size: 12px;
+    padding: 0 10px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+header .buscar form button:hover {
+    background: wheat;
+    color: gray;
+}
+
+.swiper-img {
+    height: 100%;
+    width: 100%;
+    z-index: 0; }
+  
+  .swipper {
+    max-height: 500px; }
+  
+  .swiper-container {
+    width: 100%;
+    height: 80vh;
+    z-index: 0; }
+  
+  .swiper-pagination-bullet {
+    margin: 0px 5px; }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center; }
+  
+  .swiper-pagination {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    width: 100%; }
+  
+  :root {
+    --swiper-theme-color: white; }

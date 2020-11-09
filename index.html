@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CoronaStore</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/estiles.css">
+    <style>
+        .color {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-auto logo">
+                    <img src="https://i.pinimg.com/originals/21/30/f8/2130f8289a6541f67320e1b0ddf644c5.png" height="30" width="30" alt="">
+                </div>
+                <div class="col buscar">
+                    <form action="">
+                        <div class="row no-gutters">
+                            <div class="col-10">
+                                <input type="text" placeholder="Buscar Articulo">
+                            </div>
+                            <div class="col-2">
+                                <button> Buscar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <nav class="col menu">
+                    <a href=""><i>Tienda</i></a>
+                    <a href=""><i>Blog</i></a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container" >
+        <div class="swiper-container ">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="corona1.png" class="swiper-img" alt=""></div>
+              <div class="swiper-slide"><img src="corona2.png" class="swiper-img" alt=""></div>
+              <div class="swiper-slide"><img src="corona3.jpg" class="swiper-img" alt=""></div>
+             
+            </div>
+            <!-- Add Pagination
+            -->
+            <div class="swiper-button-next" ></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+            
+          
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+       
+        spaceBetween: 30,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
+</body>
+
+</html>

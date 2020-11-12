@@ -15,16 +15,27 @@
         }
 
         .precio {
-          color: tomato;
-          margin-top: 5%;
+            color: tomato;
+            margin-top: 5%;
         }
 
         .separado {
-          margin-left: 10%;
+            margin-left: 10%;
         }
 
         .alinear {
-          text-align: center;
+            text-align: center;
+        }
+        .color {
+            color: black;
+        }
+        
+        div.swiper-slide {
+            background-color: rgb(189, 189, 189);
+        }
+        
+        div.swiper-container {
+            padding-top: 3%;
         }
     </style>
 </head>
@@ -43,7 +54,7 @@
                 <ul class="navbar-nav mr-auto">
                 </ul>
                 <form class="form-inline my-2 my-lg-0 " style="margin: 5%;">
-                    <a href="" class=" mr-sm-2">Empresa</a>
+                    <a href="./empresa.html" class=" mr-sm-2">Empresa</a>
                     <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModal">Iniciar sesion</button>
                 </form>
             </div>
@@ -147,11 +158,11 @@
             </div>
         </div>
         <div class="container">
-            <div class="swiper-container ">
+            <div class="swiper-container" style="height: 300px; width: 1000px;">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="corona1.png" class="swiper-img" alt=""></div>
-                    <div class="swiper-slide"><img src="corona2.png" class="swiper-img" alt=""></div>
-                    <div class="swiper-slide"><img src="corona3.jpg" class="swiper-img" alt=""></div>
+                    <div class="swiper-slide"><img src="corona1.png" class="swiper-img" alt="" style="height: 100px; width: 100px;"></div>
+                    <div class="swiper-slide"><img src="https://comoorganizarlacasa.com/wp-content/uploads/2018/08/paso-a-paso-para-hacer-las-coronas-navidenas-modernas.png" class="swiper-img" alt="" style="height: 100px; width: 100px;"></div>
+                    <div class="swiper-slide"><img src="https://www.decoactual.com/wp-content/uploads/2011/11/corona-navidena.jpg" class="swiper-img" alt="" style="height: 100px; width: 100px;"></div>
 
                 </div>
                 <div class="swiper-button-next"></div>
@@ -243,12 +254,34 @@
       </div>
     </div>
   </div>
- </div> 
-  
+ </div>     
+ <footer class="bg-dark text-white py-4">
+    <div class="container">
+        <nav class="row">
+            <a href="" class="col text-reset d-flex align-items-center font-weight-bold" style="color:blanchedalmond">
+                <img src="https://i.pinimg.com/originals/21/30/f8/2130f8289a6541f67320e1b0ddf644c5.png" width="50" height="50" alt=""> CoronasMx
+            </a>
 
-  
-            
+            <div class="col-3 font-weight-bold">
+                <p>
+                    DIreccion: <br> K.m 6.7, México 85, 89930 Quintero, Tamps.
+                </p>
 
+            </div>
+            <div class="col-3 font-weight-bold">
+                Contacto: <br> CoronasMx@gmail.com
+            </div>
+            <ul class="col-3 list-unstyled">
+                <li class="font-weight-bold text-upppercase">Redes Sociales</li>
+                <li class="d-flex justify-content-between">
+                    <a href="" class="text-reset"><i class="fab fa-facebook-f"></i></a>
+                    <a href="" class="text-reset"><i class="fab fa-instagram"></i></i></a>
+                    <a href="" class="text-reset"></i><i class="fab fa-pinterest-p"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</footer>
 </body>
 
 </html>

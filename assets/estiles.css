@@ -77,7 +77,7 @@ header .buscar form button:hover {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: rgb(209, 186, 133);
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
